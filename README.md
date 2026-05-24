@@ -42,8 +42,8 @@
 </div>
 ---
 
-## 🎬Video
-[![Watch Video](thumbnail.png)](https://youtu.be/jE56us9O6x0)
+## 🎬 Video
+[![Click to Watch](https://shields.io)](https://youtu.be/jE56us9O6x0)
 
 ---
 
