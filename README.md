@@ -30,7 +30,7 @@
 
 <br/>
 
-> A fully interactive 3D solar system simulation built from scratch using **Modern OpenGL**, **GLFW**, and **GLAD** with no game engine or external math library. Features real planet textures, Phong lighting, Kepler orbital mechanics, spacecraft mode, LOD rendering, and much more.
+> A fully interactive 3D solar system simulation built from scratch using **Modern OpenGL**, **GLFW**, and **GLAD** — no game engine, no external math library. Features real NASA planet textures, Phong lighting, Kepler orbital mechanics, spacecraft fly mode, LOD rendering, Earth atmosphere glow, and much more.
 
 <br/>
 
@@ -40,12 +40,18 @@
 [![Course](https://img.shields.io/badge/Course-Computer%20Graphics%20%26%20Animation-purple?style=flat-square)](#)
 
 </div>
----
-
-## 🎬 Video
-[![Click to Watch](https://shields.io)](https://youtu.be/jE56us9O6x0)
 
 ---
+
+## 🎬 Demo Video
+
+<div align="center">
+
+[![3D Solar System Demo](https://img.youtube.com/vi/jE56us9O6x0/maxresdefault.jpg)](https://youtu.be/jE56us9O6x0)
+
+**▶ [Watch Full Demo on YouTube](https://youtu.be/jE56us9O6x0)**
+
+</div>
 
 ---
 
@@ -81,7 +87,7 @@
 
 <img src="screenshots/04_saturn_rings.png" width="100%"/>
 
-> Saturn's ring system features a **gradient effect** — inner B-ring is brighter and warmer, the Cassini Division appears darker, and the outer A-ring is dimmer.
+> Saturn's ring system features a **gradient effect** — inner B-ring is brighter and warmer in color, and the outer A-ring is dimmer. Rings are rendered as flat elliptical bands around the planet.
 
 ---
 
@@ -89,7 +95,7 @@
 
 <img src="screenshots/05_jupiter_moons.png" width="100%"/>
 
-> Jupiter's four **Galilean moons** — Io, Europa, Ganymede, and Callisto — orbit at different distances and speeds, each with a unique orbital period.
+> Jupiter's four **Galilean moons** — Io, Europa, Ganymede, and Callisto — orbit at different distances and speeds. Jupiter's texture shows its characteristic cloud bands.
 
 ---
 
@@ -97,7 +103,7 @@
 
 <img src="screenshots/06_spacecraft_view.png" width="100%"/>
 
-> Press `V` to enter **Spacecraft Mode** — freely fly through the solar system using WASD controls. Mouse drag steers, scroll wheel controls throttle, Q/E moves up and down. The title bar shows real-time position and throttle value.
+> Press `V` to enter **Spacecraft Mode** — freely fly through the solar system using WASD controls. Mouse drag steers, scroll wheel controls throttle, Q/E moves up and down. The title bar shows real-time position and throttle.
 
 ---
 
@@ -120,7 +126,7 @@
 | ☁️ **Cloud Layer** | Separate cloud sphere rotating independently on Earth |
 | 🪐 **Saturn Ring Gradient** | Multi-ring system with inner-to-outer brightness falloff |
 | 🔵 **Uranus & Neptune Rings** | Tilted ring for Uranus, thin ring for Neptune |
-| 🌕 **Moons** | Earth (1), Mars (Phobos + Deimos), Jupiter (4 Galilean moons) |
+| 🌕 **Moons** | Earth (1), Mars — Phobos & Deimos (2), Jupiter — 4 Galilean moons |
 | ☄️ **Animated Comet** | Elliptical orbit with sun-facing tail and orbit path |
 | 🪨 **Asteroid Belt** | 400 randomized asteroids with brown/grey color variation |
 | 📐 **Kepler Orbit Speed** | Planets closer to Sun orbit faster — sqrt(r₀/r) scaling |
@@ -352,8 +358,24 @@ Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 ## 👨‍💻 Author
 
 **MD Naimur Rashid**
+*IoT & Robotics Engineering Student — University of Frontier Technology, Bangladesh*
 
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-naimurhamim.github.io-5586A4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://naimurhamim.github.io/portfolio-of-naimur/)
 [![GitHub](https://img.shields.io/badge/GitHub-naimurhamim-181717?style=for-the-badge&logo=github)](https://github.com/naimurhamim)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-md--naimur--rashid-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-naimur-rashid/)
+[![YouTube](https://img.shields.io/badge/YouTube-naimur--rashid--hamim-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@naimur-rashid-hamim)
+[![Facebook](https://img.shields.io/badge/Facebook-thisishamim2-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/thisishamim2)
+
+<br/>
+
+---
+
+### 🎬 Also Watch
+
+[![Demo Video](https://img.shields.io/badge/▶_Demo_Video-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/jE56us9O6x0)
+[![2D Solar System](https://img.shields.io/badge/🪐_2D_Version-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/naimurhamim/OpenGL-Solar-System-advanced)
 
 ---
 
