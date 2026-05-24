@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "C:/mingw64/bin/g++",
+      "args": [
+        "-o", "solar3d.exe",
+        "src/main.cpp",
+        "src/glad.c",
+        "-I", "include",
+        "-L", "lib",
+        "-lglfw3",
+        "-lopengl32",
+        "-lgdi32",
+        "-std=c++17"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
