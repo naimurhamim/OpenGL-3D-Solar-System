@@ -40,6 +40,12 @@
 [![Course](https://img.shields.io/badge/Course-Computer%20Graphics%20%26%20Animation-purple?style=flat-square)](#)
 
 </div>
+---
+
+## 🎬Video
+[![Watch Video](thumbnail.png)](https://youtu.be/jE56us9O6x0)
+
+---
 
 ---
 
